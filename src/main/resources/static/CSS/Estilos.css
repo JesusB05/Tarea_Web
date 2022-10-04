@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family: cursive;
+   text-align: center;
+   padding: 60px;
+   
+}
+
+p {
+    font-size: 18px;
+    
+}
+
+.header {
+    background-color: purple;
+    color: white;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    background-color: aquamarine;
+    transition: 0.5s;
+}
